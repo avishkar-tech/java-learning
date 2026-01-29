@@ -3,4 +3,4 @@ covered
 - variables
 - input/output
 - if-else
-- loops+
+- loops

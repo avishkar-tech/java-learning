@@ -4,3 +4,6 @@ covered
 - input/output
 - if-else
 - loops
+# day 2
+loops revision
+array

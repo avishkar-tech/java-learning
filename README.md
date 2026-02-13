@@ -7,3 +7,6 @@ covered
 # day 2
 - loops revision
 - array
+- string
+- linear search
+- binary search

@@ -1,0 +1,22 @@
+import java.util.*;
+public class Day7 {
+    public static void main(String[] args) {
+         // 2D arraysS
+        Scanner  sc = new Scanner(System.in);
+        int rows = sc.nextInt();
+        int column = sc.nextInt();
+         int[][] matrix = new int[rows][column];
+         for( int i=0; i<rows ; i++ ){
+             for ( int x=0 ; x<column ; x++ ){
+                 matrix[i][x] = sc.nextInt();
+
+             }
+         }
+        for( int i=0; i<rows ; i++ ) {
+            for (int x=0; x<column; x++) {
+                System.out.print(matrix[i][x] + "  ");
+
+            }   System.out.println();
+        }
+    }
+}
